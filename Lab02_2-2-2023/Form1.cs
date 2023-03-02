@@ -93,6 +93,15 @@ namespace Lab02_2_2_2023
         private void btnClear_Click(object sender, EventArgs e)
         {
             this.Invalidate();
+            // Last Updated: 3-2-2023
+            // Set button to Default between Input TextBox and Checkbox 
+            this.Invalidate();
+            this.sX.Clear();
+            this.sY.Clear();
+            this.eX.Clear();
+            this.eY.Clear();
+            this.chkDraw.Checked = false;
+            //this.txtW.Clear();
         }
     }
 }
